@@ -9,7 +9,7 @@ with open('class_indices.json') as f:
     class_indices = json.load(f)
 
 # Load the TFLite model
-interpreter = tf.lite.Interpreter(model_path="model.tflite")
+interpreter = tf.lite.Interpreter(model_path="crop_disease_predictor.tflite")
 interpreter.allocate_tensors()
 
 # Get input and output details for the model

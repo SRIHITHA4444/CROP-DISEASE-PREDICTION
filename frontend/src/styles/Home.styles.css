@@ -4,6 +4,8 @@
     min-height: 100vh;
     flex-direction: row; /* Two main sections: left for slideshow and right for content */
     position: relative; /* To position the horizontal bar absolutely */
+    background-color : black;
+    color : white
 }
 
 /* Slideshow Section */
@@ -36,7 +38,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-grow: 1; /* Take remaining space to push footer down */
 }
 
@@ -69,7 +71,7 @@
 .footer {
     text-align: center;
     padding: 10px 0; /* Adjusted padding for smaller footer */
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
     font-size: 0.9rem;
     margin-top: auto; /* Ensures footer stays at the bottom */
 }

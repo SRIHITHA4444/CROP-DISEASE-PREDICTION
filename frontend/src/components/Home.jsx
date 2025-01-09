@@ -25,13 +25,13 @@ const Home = () => {
 
   return (
     <div className="home-container">
-      {/* Navbar with Horizontal Bar */}
+      
       <div className="horizontal-bar">
         <Link to="/signup" className="auth-link">Signup</Link>
         <Link to="/login" className="auth-link">Login</Link>
       </div>
 
-      {/* Slideshow */}
+      
       <div className="slideshow-container">
         <img
           src={images[currentImageIndex]}
@@ -40,14 +40,14 @@ const Home = () => {
         />
       </div>
 
-      {/* Right Container with Auth Section */}
+      
       <div className="right-container">
         <div className="auth-container">
           <h1>Welcome to the Crop Care 🌾</h1>
         </div>
       </div>
 
-      {/* Footer */}
+      
       <footer className="footer">
         &copy; {new Date().getFullYear()} Crop Care. All rights reserved.
       </footer>
@@ -56,3 +56,5 @@ const Home = () => {
 };
 
 export default Home;
+
+

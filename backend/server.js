@@ -14,6 +14,8 @@ app.use("/api/auth", authRoutes);
 
 // Database Connection
 mongoose
-  .connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
-  .then(() => app.listen(process.env.PORT || 5000, () => console.log("Server running...")))
+  .connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
+  .then(() => app.listen(process.env.PORT || 5000, () => 
+    console.log(`Server running on PORT ${process.env.PORT}`)
+))
   .catch((err) => console.error(err));

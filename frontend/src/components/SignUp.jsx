@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import axios from "../utils/api";
+import axios from "C:/Users/SRIHITHA/Documents/GitHub/CROP-DISEASE-PREDICTION/frontend/src/utils/api.utils.js";
 
 const SignUp = () => {
   const [formData, setFormData] = useState({ username: "", email: "", password: "" });

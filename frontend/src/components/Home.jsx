@@ -13,48 +13,55 @@ const Home = () => {
     "/What-makes-maize.jpeg",
   ];
 
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [currentImage, setCurrentImage] = useState(images[0]);
 
+  // Change image randomly every 3 seconds
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 3000); // Change image every 3 seconds
+      const randomIndex = Math.floor(Math.random() * images.length);
+      setCurrentImage(images[randomIndex]);
+    }, 3000);
 
-    return () => clearInterval(interval);
-  }, [images.length]);
+    return () => clearInterval(interval); // Cleanup on component unmount
+  }, [images]);
 
   return (
-    <div className="home-container">
-      
-      <div className="horizontal-bar">
-        <Link to="/signup" className="auth-link">Signup</Link>
-        <Link to="/login" className="auth-link">Login</Link>
-      </div>
+    <div className="homepage">
+      {/* Navbar */}
+      <nav className="navbar">
+        <div className="nav-logo">CropCare</div>
+        <ul className="nav-links">
+          <li>Home</li>
+          <li>Contacts</li>
+          <li>Sign In</li>
+          <li>About Us</li>
+        </ul>
+      </nav>
 
-      
-      <div className="slideshow-container">
-        <img
-          src={images[currentImageIndex]}
-          alt="slideshow"
-          className="slideshow-image"
-        />
-      </div>
+      {/* Main Content */}
+      <div className="main-content">
+        {/* Random Slideshow */}
+        <div className="slideshow">
+          <img src={currentImage} alt="Random" className="slideshow-image" />
+        </div>
 
-      
-      <div className="right-container">
-        <div className="auth-container">
-          <h1>Welcome to the Crop Care 🌾</h1>
+        {/* Main Page */}
+        <div className="main-section">
+          <h1>Crop Disease Predictions</h1>
+          <p>
+            Welcome to CropCare, where we help farmers and agronomists detect
+            and prevent crop diseases effectively using AI.
+          </p>
+          <button className="cta-button">Learn More</button>
         </div>
       </div>
-
-      
-      <footer className="footer">
+      {/* <footer className="footer">
         &copy; {new Date().getFullYear()} Crop Care. All rights reserved.
-      </footer>
+      </footer>  */}
     </div>
   );
 };
 
 export default Home;
 
-
+ 

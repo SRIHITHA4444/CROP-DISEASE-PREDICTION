@@ -1,100 +1,98 @@
-/* Home Container */
-.home-container {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: row; /* Two main sections: left for slideshow and right for content */
-    position: relative; /* To position the horizontal bar absolutely */
-    background-color : black;
-    color : white
+body {
+    margin : 0;
+    font-family : "Arial", sans-serif;
+}
+  
+.homepage {
+  display : flex;
+  flex-direction : column;
+  height : 100vh;
 }
 
-/* Slideshow Section */
-.slideshow-container {
-    flex: 1;
-    height: 100vh; /* Full height for the slideshow */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden; /* Hide overflow from images */
+
+.navbar {
+  display : flex;
+  justify-content : space-between;
+  align-items : center;
+  padding : 1rem 2rem;
+  background-color : #4caf50;
+  color : white;
+}
+
+.nav-logo {
+  font-size : 1.5rem;
+  font-weight : bold;
+}
+
+.nav-links {
+  list-style : none;
+  display : flex;
+  gap : 2rem;
+}
+
+.nav-links li {
+  cursor : pointer;
+  font-size : 1rem;
+  transition : color 0.3s ease-in-out;
+}
+
+.nav-links li:hover {
+  color : #f0f0f0;
+}
+
+.main-content {
+  display : flex;
+  flex-grow : 1;
+}
+
+.slideshow {
+  width : 40%;
+  display : flex;
+  background : #f0f0f0;
+  overflow : hidden;
+  position : relative;
 }
 
 .slideshow-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Cover the entire slideshow container */
+  max-width : 100%;
+  max-height : 100%;
+  object-fit : cover;
 }
 
-/* Right Container */
-.right-container {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start; /* Ensure content starts from top */
-    padding: 20px;
+.main-section {
+  width : 60%;
+  padding : 2rem;
+  display : flex;
+  flex-direction : column;
+  justify-content : center;
+  background-color : #ffffff;
 }
 
-/* Auth Section */
-.auth-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    flex-grow: 1; /* Take remaining space to push footer down */
+.main-section h1 {
+  font-size : 2.5rem;
+  margin-bottom : 1rem;
+  color : #333;
 }
 
-.auth-container h1 {
-    margin-bottom: 20px;
-    font-size: 1.5rem;
-    text-align: center;
+.main-section p {
+  font-size : 1.2rem;
+  line-height : 1.5;
+  margin-bottom : 1.5rem;
+  color : #666;
 }
 
-.auth-buttons {
-    display: flex;
-    gap: 10px;
+.cta-button {
+  padding : 0.75rem 1.5rem;
+  background-color : #4caf50;
+  color : white;
+  border : none;
+  font-size : 1rem;
+  border-radius : 5px;
+  cursor : pointer;
+  transition : background-color 0.3s ease-in-out;
 }
 
-.auth-buttons button {
-    padding: 10px 20px;
-    font-size: 1rem;
-    border: none;
-    background-color: #007bff;
-    color: #fff;
-    cursor: pointer;
-    transition: background-color 0.3s;
+.cta-button:hover {
+  background-color : #45a049;
 }
-
-.auth-buttons button:hover {
-    background-color: #0056b3;
-}
-
-/* Footer */
-.footer {
-    text-align: center;
-    padding: 10px 0; /* Adjusted padding for smaller footer */
-    /* background-color: #f1f1f1; */
-    font-size: 0.9rem;
-    margin-top: auto; /* Ensures footer stays at the bottom */
-}
-
-/* Horizontal bar for Signup/Login links */
-.horizontal-bar {
-    position: absolute;
-    top: 20px; /* Adjusts the vertical position of the bar */
-    right: 20px; /* Aligns the bar to the right */
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    display: flex;
-    gap: 15px;
-}
-
-.auth-link {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
-}
-
-.auth-link:hover {
-    color: #f1f1f1;
-}
+  

@@ -4,5 +4,7 @@ venv/
 color/
 #Ignore the "/backend/.env" directory
 backend/.env
+#Ignore "crop_disease_predictor" directory
+crop_disease_predictor/
 # Ignore all .log files
 *.log

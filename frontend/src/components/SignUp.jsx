@@ -16,6 +16,8 @@ const SignUp = () => {
       const response = await axios.post("/auth/signup", formData);
       alert("Signup successful!");
       navigate("/login");
+      // Redirect to Streamlit chatbot page
+      window.location.href = "http://localhost:8501";
     } catch (error) {
       alert(error.response?.data?.message || "Signup failed");
     }

@@ -4,6 +4,8 @@ venv/
 color/
 #Ignore the "/backend/.env" directory
 backend/.env
+#Ignore "crop_disease_prediction_using_cnn.tflite"
+crop_disease_predictor_using_cnn.tflite
 #Ignore "crop_disease_predictor" directory
 crop_disease_predictor/
 # Ignore all .log files

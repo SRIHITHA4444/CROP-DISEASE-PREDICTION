@@ -33,7 +33,7 @@ const Home = () => {
         <ul className="nav-links">
           <li>Home</li>
           <li>Contacts</li>
-          <li>Sign In</li>
+          <li>SignUp/Login</li>
           <li>About Us</li>
         </ul>
       </nav>

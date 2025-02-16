@@ -1,0 +1,208 @@
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(40px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  @keyframes slideUp {
+    from { transform: translateY(50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  
+  .signup-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signup-form-section {
+    flex: 100%;
+    position: relative;
+    min-width: 100vw;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.8s ease-out;
+    background:url('https://cdn.pixabay.com/photo/2018/01/31/07/36/secret-3120483_1280.jpg');
+    background-size: cover;
+  }
+  
+  .signup-form-section h2 {
+    color: #DAA520;
+    margin:  1.2rem 0 1rem 0; 
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  }
+  
+  .signup-social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.75rem;
+    margin-bottom: 0.5rem 0 1rem 0; 
+  }
+  
+  .signup-social-icons a {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0.85;
+  }
+  
+  .signup-social-icons a:hover {
+    transform: translateY(-3px);
+    opacity: 1;
+  }
+  
+  .signup-social-divider {
+    display: flex;
+    align-items: center;
+    color: #cfcfcf;
+    font-size: 1.3rem; 
+    margin: 1rem 0;
+    margin-bottom: 1.4rem;
+    white-space: nowrap;
+  }
+  
+  .signup-social-divider::before,
+  .signup-social-divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #cfcfcf;
+    margin: 0 1rem;
+  }
+  
+  form {
+    width: 80%;
+    display: flex;
+    max-width: 700px;
+    gap: 1rem;
+    flex-direction: column;
+  }
+  
+  .signup-form-group {
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    animation: fadeIn 0.6s ease-out forwards;
+  }
+  
+  .signup-form-group input {
+    width: 100%;
+    padding: 0.8rem;
+    color:black;
+    background: rgba(255, 255, 255, 0.95);
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+  }
+  
+  .signup-form-group input:focus {
+    outline: none;
+    border-color:#DAA520;
+    box-shadow: 0 0 0 3px rgba(125, 255, 125, 0.2);
+  }
+  
+  .signup-form-group label {
+    position: absolute;
+    left: 0.7rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+    font-size: 0.75rem;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    background: transparent;
+    padding: 0 0.3rem;
+  }
+  
+  .signup-form-group input:focus ~ label,
+  .signup-form-group input:not(:placeholder-shown) ~ label {
+    top: -0.1rem;
+    left: 0.8rem;
+    font-size: 0.65rem;
+    color: #555;
+    background: rgba(255, 255, 255, 0.95);
+  }
+  
+  .signup-terms-container {
+    display: flex;
+    gap: 0.75rem;
+    margin: 0.8rem 0;
+    margin-left: 2px;
+    width: 100%;
+    animation: fadeIn 0.6s ease-out 0.2s forwards;
+    font-size: 0.8rem;
+  }
+  
+  .signup-terms-container label {
+    color: #e0e0e0;
+    cursor: pointer;
+    font-size: 0.95rem;
+  }
+  
+  .signup-btn {
+    width: 100%;
+    padding: 1.15rem;
+    background :transparent;
+    color:rgb(191, 245, 57);
+    border: none;
+    border-radius: 8px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0.3rem 0 0.5rem 0;
+    transition: all 0.3s ease;
+  }
+  
+  .signup-btn:hover {
+    transform: translateY(-2px);
+    background : rgba(10, 84, 10, 0.4);
+    color: #DAA520;
+    background : rgba(10, 84, 10, 0.4);
+    box-shadow: 0 5px 15px rgba(125, 255, 125, 0.3);
+  }
+  
+  .signup-login-redirect {
+    text-align: center;
+    margin-top: auto;
+    padding-top: 1rem 0;
+    font-size: 2.5rem;
+  }
+  
+  .signup-login-redirect a {
+    color:rgb(191, 245, 57);;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .login-redirect a:hover {
+    color: #FFD700;
+  }
+  
+  @media (max-width: 768px) {
+    .form-section {
+      min-height: 100vh;
+      padding: 0;
+    }
+  
+    .form-content {
+      padding: 2rem 1rem;
+      justify-content: space-between; 
+    }
+  
+    .login-redirect {
+      margin-top: 2rem;
+      padding-bottom: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .form-content {
+      padding: 1.5rem 0.5rem;
+    }
+  }
+  

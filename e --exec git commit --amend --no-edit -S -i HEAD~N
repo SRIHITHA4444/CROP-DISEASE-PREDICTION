@@ -1,0 +1,422 @@
+[33mcommit f9fa0589d391d0adebd844bc7d509a4fd7962062[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Sun Feb 16 17:59:20 2025 +0530
+
+    Update App.jsx
+
+[33mcommit 7645d043c41da99f90a9666a0b6e3b859f12726b[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Sun Feb 16 17:58:27 2025 +0530
+
+    Update index.html
+
+[33mcommit 32f544c2d241e657e5204fcb7cfb9c9cb7c42ba8[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Sun Feb 16 17:55:00 2025 +0530
+
+    Create SignUp.styles.css
+
+[33mcommit de646aef7d1526e1cbbfd6c21e5bf2fa45a779d1[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Sun Feb 16 17:54:14 2025 +0530
+
+    Create Login.styles.css
+
+[33mcommit e9e1271d88ee4c3d24aba6bd6a9a483cf486856b[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Sun Feb 16 17:53:32 2025 +0530
+
+    Update Home.styles.css
+
+[33mcommit cc90e0ef7ee13a8d184eb74ac804801ece2c7cbb[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Sun Feb 16 17:52:33 2025 +0530
+
+    SignUp page
+
+[33mcommit b20aad3ab0f945db7f93ec724ad8eac6cde57829[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Sun Feb 16 17:51:52 2025 +0530
+
+    Login Page
+
+[33mcommit b1db77a4bbf5a00ebbb85f3359d0b8609d1d5d5d[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Sun Feb 16 17:51:10 2025 +0530
+
+    Home Page
+
+[33mcommit 5a03e2d59810125dbd9ee9c1dcbd858d383d9acc[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Sun Feb 16 17:48:40 2025 +0530
+
+    Update auth.controllers.js
+
+[33mcommit 3b6e0e508463842112c01bbef3d1276cf868293d[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Fri Feb 7 18:42:21 2025 +0530
+
+    Update Home.jsx
+
+[33mcommit 0515f23bafad02eaf3e42e96e4d17b8ac42ae9ab[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Fri Feb 7 16:14:09 2025 +0530
+
+    gitignore
+
+[33mcommit a2bea7890fca335f07636ea1f9081676f116c80a[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Fri Jan 24 00:47:05 2025 +0530
+
+    gitignore
+
+[33mcommit adb7a1c94a869a2ee2cd21037ea5639e8c3a04d2[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Fri Jan 24 00:46:49 2025 +0530
+
+    SignUp
+
+[33mcommit f1c854b9921a418b815219d86f38232b6cfbe485[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Fri Jan 10 22:36:29 2025 +0530
+
+    HomePage style
+
+[33mcommit eb5d56226cae4f6fe284a33f0cbb5b1cbadb3670[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Fri Jan 10 22:36:02 2025 +0530
+
+    Home Page
+
+[33mcommit 66f2ec33ccf43a7c79a5aae7c318c25130950e87[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 22:31:48 2025 +0530
+
+    Home Page styles
+
+[33mcommit 74876d01461945ccbd7e14e8be1f6964ce5cf091[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 22:31:32 2025 +0530
+
+    Home Page
+
+[33mcommit 1b0397752de524ca838c3cc822a56820a08fd583[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 21:04:51 2025 +0530
+
+    Home styles
+
+[33mcommit 46e11185a60b4a3021642c800a1ec86b4f365fa1[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 21:04:43 2025 +0530
+
+    Home
+
+[33mcommit 9a8d14c2cd50fb3185a86b909e70c0c05fa29363[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 20:54:09 2025 +0530
+
+    Home.jsx
+
+[33mcommit eb5ff360c03e183687bd046e1f8f0a9bf13b3643[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 20:53:52 2025 +0530
+
+    Home styles
+
+[33mcommit 316dbd70066adf113fc7716b2c9202360256d529[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 20:42:26 2025 +0530
+
+    images
+
+[33mcommit 0e2a2b4365150d3fec74eef2c8e495a071eee76c[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 19:54:09 2025 +0530
+
+    server
+
+[33mcommit 6552a334b7ef19fbebc54b8f6d996005ecd33bf8[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 19:49:12 2025 +0530
+
+    server
+
+[33mcommit d2e3e40d5e6ce4b1c4c025dd12d55c9aec96d9ed[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 19:43:10 2025 +0530
+
+    SignUp Page
+
+[33mcommit d4ced140fc5203e47b7f2bbdc52e8c399a4c51c8[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 19:42:54 2025 +0530
+
+    Login Page
+
+[33mcommit fdae351e2b419de86a3ed7315575b3250c922f82[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 19:34:39 2025 +0530
+
+    server.js
+
+[33mcommit 147a4495bd1561a72b8e498a89acc1fc4975cd81[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 19:31:36 2025 +0530
+
+    downloads
+
+[33mcommit 85467f43e59d3a2cc75113ae03d776f15ef1ee59[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 19:28:14 2025 +0530
+
+    api
+
+[33mcommit 37a5112639e09693469ed7658f69236288a6e793[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 19:28:08 2025 +0530
+
+    index.css
+
+[33mcommit dab63056255d9d658bf5d21bf6a3238742ad902a[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 19:27:58 2025 +0530
+
+    App.jsx
+
+[33mcommit 7359fe6566ee9af18f2cb2ead03461d6d656d2f6[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 12:54:56 2025 +0530
+
+    SignUp
+
+[33mcommit 33532556a1bed8c76e911ca9b39c1a2cf615d664[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 12:54:44 2025 +0530
+
+    Login
+
+[33mcommit f85c6da43fffbebb108b43336df5e10777e86999[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 12:50:28 2025 +0530
+
+    Home Page
+
+[33mcommit fa2bc1d86ca836160d905e1f19146e5fa7ef5d78[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 12:47:52 2025 +0530
+
+    SignUp Page
+
+[33mcommit 888e14a7872081f5a79c6268bac6be73a12d068c[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 12:47:27 2025 +0530
+
+    Login Page
+
+[33mcommit f24d3c9cf833ae49d6be5c2717cdc85be1e09a50[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 12:47:06 2025 +0530
+
+    HomePage
+
+[33mcommit 5653467fe6743bd7adb448eb1ee20c81cc42a859[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 12:45:24 2025 +0530
+
+    downloads
+
+[33mcommit 3cf29e70ec8e63c87142ef26e5a959fc91523f2b[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 12:45:01 2025 +0530
+
+    delete
+
+[33mcommit 866acff9b54be693a125f5eb9afa01d9d2a1c96a[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 12:39:20 2025 +0530
+
+    server
+
+[33mcommit b124f82c2f5030ef439360ed58035c8ea214427d[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 12:29:36 2025 +0530
+
+    Update .gitignore
+
+[33mcommit 0db3ceb9d649566e0bcc11685d529fd03e5110a5[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 12:26:49 2025 +0530
+
+    server
+
+[33mcommit 28431d640ed3c24043a044ba57edf1d9b43478b2[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 12:25:05 2025 +0530
+
+    auth middleware
+
+[33mcommit c95fbe0faf55353ac72f3c640144c3dda43d22e9[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 12:24:31 2025 +0530
+
+    auth routes
+
+[33mcommit 978011ded6f4afbf35fe494e9820817f63ff9ee5[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 12:21:49 2025 +0530
+
+    auth controller
+
+[33mcommit 674e42d836c7555d130ee0b8e5b4415f33a15532[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 12:17:59 2025 +0530
+
+    auth controller
+
+[33mcommit 8ed4ea99bea752a2788ca5e38a11420929c81479[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 12:00:08 2025 +0530
+
+    user model
+
+[33mcommit 627c9adf18da0c221b044137bf3691b2bc4595fc[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 11:54:23 2025 +0530
+
+    download
+
+[33mcommit 6a0b1db7214c2238c6eb84051de18408c4e959aa[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 11:52:46 2025 +0530
+
+    downloads
+
+[33mcommit b52d3703c0c4638fcc787cccdef31753a060ac43[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 04:32:42 2025 +0530
+
+    Update main.py
+
+[33mcommit 3a1d01966ca48a6f212def3140ba0858136a4c39[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 04:30:38 2025 +0530
+
+    Update requirements.txt
+
+[33mcommit 4377328da76b00743f60ca817f03fae60a0eaa8a[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 04:23:23 2025 +0530
+
+    Update requirements.txt
+
+[33mcommit 537931d1aebb2e6fc55360187dcbcab7b5f01183[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 04:15:13 2025 +0530
+
+    Update requirements.txt
+
+[33mcommit 8c58615ad0ac380dfd624aeb4a9e1907f769be63[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 04:11:57 2025 +0530
+
+    Update requirements.txt
+
+[33mcommit 434f4af09226efb115d6a966751b7e41e83e5c0f[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 04:04:19 2025 +0530
+
+    Update requirements.txt
+
+[33mcommit f4ce34448ff52c64b12986a166e9d927272e19f2[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 04:00:01 2025 +0530
+
+    Update requirements.txt
+
+[33mcommit 07bbbf9bee9cfe38909bec38d8af4e2e25aa1099[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 03:50:18 2025 +0530
+
+    Update .gitignore
+
+[33mcommit c4485f0097f2c16787a8ababa9b996bcd6496275[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 03:30:16 2025 +0530
+
+    Create .gitignore
+
+[33mcommit 82b0c5386c900f0a07d4cbb7b63c732b69f97d71[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 03:15:12 2025 +0530
+
+    Update main.py
+
+[33mcommit ede8f9eb2c658d3c929f3ffcc28efa7e4c652966[m
+[41mgpg: Signature made Thu, Jan  9, 2025  3:11:29 AM IST[m
+[41mgpg:                using RSA key B5690EEEBB952194[m
+[41mgpg: Can't check signature: No public key[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 03:11:29 2025 +0530
+
+    Delete venv directory
+
+[33mcommit 8c521e8fdde9303cdf2cc2decd59d1b495990268[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 03:02:13 2025 +0530
+
+    streamlit-chatbot-page
+
+[33mcommit f075b17b6756a2ee951fbdb0f98aedda2ccb284d[m
+[41mgpg: Signature made Thu, Jan  9, 2025  2:49:25 AM IST[m
+[41mgpg:                using RSA key B5690EEEBB952194[m
+[41mgpg: Can't check signature: No public key[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 02:49:25 2025 +0530
+
+    class_indices.json
+
+[33mcommit a59d55d5a2859c037539521c14cb5ba973b431bf[m
+[41mgpg: Signature made Thu, Jan  9, 2025  2:48:27 AM IST[m
+[41mgpg:                using RSA key B5690EEEBB952194[m
+[41mgpg: Can't check signature: No public key[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 02:48:26 2025 +0530
+
+    model for crop disease prediction
+
+[33mcommit aedb31344cd1020404ac31a412894b7ce2321f02[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 02:28:46 2025 +0530
+
+    requirements.txt
+
+[33mcommit ac0ddd470afffb9df439d5644565e93a71552bda[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 02:27:04 2025 +0530
+
+    modify
+
+[33mcommit 262846cc1b6958d0365d035785066dc504fae177[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 02:25:28 2025 +0530
+
+    venv
+
+[33mcommit bca8223454a0e6f527c002be7cee87a78739625d[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 02:20:49 2025 +0530
+
+    vite install
+
+[33mcommit fe7acf5c3f8bb8975630cca1c22b8191c9a76083[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 02:19:35 2025 +0530
+
+    downloads
+
+[33mcommit 796e0c5278cb6b0d1583240ac77d08caf147e194[m
+Author: SRIHITHA4444 <sriminnu2004@gmail.com>
+Date:   Thu Jan 9 02:16:43 2025 +0530
+
+    Create package.json
